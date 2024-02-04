@@ -34,7 +34,7 @@ byte menuloop = 1;
 unsigned long lastAutoflipMillis = 0; // Зберігаємо час останнього автоматичного зміщення
 unsigned long lastSyncTime = 0; // Зберігаємо час останньої синхронізації інтернет-годинника
 unsigned long syncInterval = 30000; // Інтервал синхронізації інтернет-годинника (1 хвилина(60000))(30 секунд(30000))
-char UTC = 2;
+char UTC = 2;//your time zone (utc)
 int houers;
 
 
