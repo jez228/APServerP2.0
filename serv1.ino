@@ -24,8 +24,8 @@ IRrecv irReceiver(IR_RECEIVEE_PIN);
 IRsend irSender(IR_SENDE_PIN);
 
 
-const char *wifiSSIDs[] = {"WiFi2", ".exe", "WiFi3", "WiFi4", "WiFi5", "WiFi6", "WiFi7", "WiFi8", "WiFi9", "WiFi10"};
-const char *wifiPasswords[] = {"password2", "./wificonnecting.exe", "password3", "password4", "password5", "password6", "password7", "password8", "password9", "password10"};
+const char *wifiSSIDs[] = {"WiFi2", "defaulnt", "WiFi3", "WiFi4", "WiFi5", "WiFi6", "WiFi7", "WiFi8", "WiFi9", "WiFi10"};
+const char *wifiPasswords[] = {"password2", "wificonnecting.def", "password3", "password4", "password5", "password6", "password7", "password8", "password9", "password10"};
 
 int selectedMenuItem = 1;
 int selectedwMenuItem = 0;
