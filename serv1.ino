@@ -4,6 +4,7 @@
 #include <WiFiUdp.h>
 #include <IRremote.h> // Припустимо, що ви використовуєте бібліотеку IRremote
 
+
 iarduino_OLED_txt myOLED(0x3C);
 
 extern uint8_t SmallFontRus[];
